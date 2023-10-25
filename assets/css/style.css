@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background-color: #F6F6F6;
+}
+
+.content{
+
+   
+}
+
+
+
+.tab_header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.tab_header_button{
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 10px 10px 0 0 ;
+}
+.tab_body{
+    padding: 30px;
+    display: none;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 4px 9px 0px rgba(0, 0, 0, 0.10), 0px 16px 16px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    background: #FDFDFD;
+
+}
+.tab_body_active{
+    display: block;
+}
